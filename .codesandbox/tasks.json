@@ -6,7 +6,7 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "julia main.jl",
+      "command": "julia --project=. main.jl",
       "runAtStart": true
     }
   }
